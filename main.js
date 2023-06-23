@@ -1,19 +1,25 @@
-const characterSelection = document.querySelector(".character-selection");
-const characterImage = document.querySelector("img");
-const characterName = document.querySelector("h1");
+document
+  .querySelector(".character-selection")
+  .addEventListener("click", chooseCharacter);
+
 let currentAudio = null;
 
-document.addEventListener("click", chooseCharacter);
-
 function chooseCharacter(e) {
+  const characterSelection = document.querySelector(".character-selection");
+  const characterImage = document.querySelector("img");
+  const characterName = document.querySelector("h1");
+
   if (e.target.classList.contains("character")) {
     const characters = characterSelection.getElementsByClassName("character");
+    const selectedCharacter = e.target.dataset.character;
+    const audio = document.querySelector(
+      `audio[data-character="${selectedCharacter}"]`
+    );
+
     Array.from(characters).forEach((character) => {
       character.classList.remove("selected");
     });
     e.target.classList.add("selected");
-
-    const selectedCharacter = e.target.dataset.character;
 
     characterImage.src = `./img/big/${selectedCharacter}.png`;
     characterName.textContent = selectedCharacter;
@@ -22,9 +28,6 @@ function chooseCharacter(e) {
       currentAudio.pause();
     }
 
-    const audio = document.querySelector(
-      `audio[data-character="${selectedCharacter}"]`
-    );
     if (audio) {
       audio.play();
       audio.currentTime = 0;
