@@ -4,6 +4,8 @@ This project was created to capture the charm and appeal of the characters in Ha
 
 **Link to project:** https://notare.github.io/hades-select-your-character
 
+<img src="./img/hades.gif" alt="A gif showing a demo of the project">
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
