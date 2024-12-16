@@ -1,8 +1,8 @@
 # Hades - Select Your Character
 
-**Link:** https://notare.github.io/hades-select-your-character
-
 <img src="./img/hades.gif" alt="A gif showing a demo of the project">
+
+**Link:** https://notare.github.io/hades-select-your-character
 
 [Description in English](#description-in-english)
 
