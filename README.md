@@ -1,10 +1,16 @@
 # Hades - Select Your Character
 
-This project was created to capture the charm and appeal of the characters in Hades, providing users with an engaging and visually pleasing experience. Whether you're a fan of Greek mythology or just curious to explore the characters, this web app offers a fun way to interact with the game's cast.
-
-**Link to project:** https://notare.github.io/hades-select-your-character
+**Link:** https://notare.github.io/hades-select-your-character
 
 <img src="./img/hades.gif" alt="A gif showing a demo of the project">
+
+[Description in English](#description-in-english)
+
+[Descrição em Português](#descrição-em-português)
+
+# Description in English
+
+This project was created to capture the charm and appeal of the characters in Hades, providing users with an engaging and visually pleasing experience. Whether you're a fan of Greek mythology or just curious to explore the characters, this web app offers a fun way to interact with the game's cast.
 
 ## How It's Made:
 
@@ -47,3 +53,49 @@ This endeavor has left me even more committed to embracing challenges and contin
 **Bia Cabeleireira (hair salon):** https://github.com/Notare/bia-cabeleireira
 
 **Bar do Léo (bar and restaurant):** https://github.com/Notare/bar-do-leo
+
+# Descrição em Português
+
+Este projeto foi criado para capturar o charme e o apelo dos personagens de Hades, proporcionando aos usuários uma experiência envolvente e visualmente agradável. Seja você um fã da mitologia grega ou apenas curioso para explorar os personagens, este aplicativo web oferece uma maneira divertida de interagir com o elenco do jogo.
+
+## Como Foi Feito:
+
+**Tecnologias usadas:** HTML, CSS, JavaScript
+
+Quis trazer à vida uma experiência imersiva de seleção de personagens inspirada no jogo Hades. Minha paixão por criar interações cativantes guiou cada etapa da criação deste projeto.
+
+A estrutura do aplicativo web foi criada usando HTML. Organizei o conteúdo em seções: uma para a seleção de personagens e outra para exibir informações detalhadas sobre eles. Cada personagem foi representado com uma classe única e um atributo de dados.
+
+Os aspectos visuais do projeto foram elaborados com CSS. Usei o Flexbox para o layout, garantindo um design responsivo. Estilizei os botões de personagens com efeitos de hover e destaque na seleção. Além disso, utilizei o Google Fonts para aplicar uma tipografia única ao projeto.
+
+A interatividade do aplicativo foi desenvolvida com JavaScript. Adicionei listeners na seção de seleção de personagens, permitindo que os usuários cliquem nos personagens e vejam suas informações exibidas no lado direito. Isso incluiu atualizar a imagem do personagem, seu nome e tocar o áudio associado. Busquei uma experiência fluida, gerenciando a reprodução do áudio e redefinindo o estado da seleção ao escolher um novo personagem.
+
+Este projeto me permitiu demonstrar minha dedicação em criar experiências web envolventes e centradas no usuário. O processo também despertou meu desejo de aprimorar ainda mais minhas habilidades em desenvolvimento e design frontend.
+
+## Otimizações
+
+Reconheci a importância de não apenas alcançar um resultado visualmente atraente, mas também garantir uma funcionalidade eficiente. Esse mindset me levou a implementar várias otimizações que melhoraram a experiência do usuário e o desempenho do aplicativo web.
+
+Uma otimização notável foi o gerenciamento da reprodução de áudio. Quando um usuário seleciona um personagem, certifiquei-me de que o áudio associado ao personagem anterior fosse interrompido, evitando sobreposições de som. Isso não apenas mantém uma experiência auditiva agradável, mas também contribui para a limpeza geral da interação.
+
+Para reforçar o senso de engajamento, incorporei um efeito de hover e um estilo de borda no personagem atualmente selecionado. Esse toque sutil, mas eficaz, não apenas guia os usuários, mas também adiciona uma camada de interatividade alinhada aos padrões modernos de design.
+
+Embora tenha alcançado essas otimizações com sucesso, reconheço que sempre há espaço para melhorias. Com mais tempo, eu focaria em padronizar o tamanho das imagens dos personagens selecionados. Como os tamanhos originais das imagens não são uniformes, imagino implementar um aumento consistente na seleção para oferecer aos usuários uma visão mais clara e detalhada do personagem escolhido.
+
+Essas otimizações refletem meu compromisso em entregar produtos que priorizam a satisfação e o engajamento do usuário. Elas também demonstram minha vontade de aprender continuamente e implementar as melhores práticas para uma experiência mais refinada e eficiente.
+
+## Lições Aprendidas:
+
+Uma lição importante foi a relevância do planejamento cuidadoso no desenvolvimento frontend. Começar com um layout bem estruturado e interações cuidadosamente projetadas estabelece a base para um projeto bem-sucedido. A atenção aos detalhes em HTML, CSS e JavaScript é fundamental, pois impacta diretamente a experiência do usuário e a funcionalidade geral.
+
+Além disso, aprendi o valor da otimização. Reconhecer áreas para melhoria e implementar soluções, como refinar a reprodução de áudio e aprimorar o feedback do usuário, mostrou o poder transformador de ajustar até os menores aspectos de um projeto.
+
+Este esforço me deixou ainda mais comprometido a abraçar desafios e expandir continuamente minhas habilidades. A satisfação de entregar um produto envolvente e polido reforça minha paixão pelo desenvolvimento frontend e o caminho empolgante de crescimento que ele oferece.
+
+## Outros Projetos:
+
+**Top Brother Rocha (centro de MMA):** https://github.com/Notare/top-brother-rocha
+
+**Bia Cabeleireira (salão de beleza):** https://github.com/Notare/bia-cabeleireira
+
+**Bar do Léo (bar e restaurante):** https://github.com/Notare/bar-do-leo
