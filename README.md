@@ -18,11 +18,11 @@ This project was created to capture the charm and appeal of the characters in Ha
 
 I wanted to bring to life an immersive character selection experience inspired by the Hades game. While my frontend development expertise might not be extensive yet, my passion for creating captivating user interactions fueled every step of this project's creation.
 
-HTML: The structure of the web app was established using HTML. I organized the content into sections: one for character selection and another for displaying detailed character information. Each character is represented with a unique class and data attribute.
+The structure of the web app was established using HTML. I organized the content into sections: one for character selection and another for displaying detailed character information. Each character is represented with a unique class and data attribute.
 
-CSS: The visual aspects of the project were crafted with CSS. I leveraged CSS Flexbox for the layout, ensuring responsive design across various devices. I implemented custom styling for the character buttons, including hover effects and selection highlighting. Additionally, I used Google Fonts to apply a unique typography style to the project.
+The visual aspects of the project were crafted with CSS. I leveraged CSS Flexbox for the layout, ensuring responsive design across various devices. I implemented custom styling for the character buttons, including hover effects and selection highlighting. Additionally, I used Google Fonts to apply a unique typography style to the project.
 
-JavaScript: The interactive aspect of the web app was brought to life using JavaScript. I added event listeners to the character selection section, allowing users to click on characters and see their information displayed on the right side. This included updating the character's image, name, and playing associated audio. I aimed for a seamless user experience by managing the audio playback and resetting the selection state when a new character is chosen.
+The interactive aspect of the web app was brought to life using JavaScript. I added event listeners to the character selection section, allowing users to click on characters and see their information displayed on the right side. This included updating the character's image, name, and playing associated audio. I aimed for a seamless user experience by managing the audio playback and resetting the selection state when a new character is chosen.
 
 This project has allowed me to showcase my dedication to creating engaging and user-centric web experiences. The process has also ignited a desire to further enhance my skills in frontend development and design.
 
